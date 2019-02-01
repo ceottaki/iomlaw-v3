@@ -54,10 +54,12 @@ body {
 .expertise {
     background-image: url('../images/Expertise-Background.png');
     background-repeat: round;
+    color: #ffffff;
 }
 
-.expertise .card-deck.expertise-card-deck-top {
-    padding-top: 90px;
+.expertise .expertise-title {
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
 }
 
 .expertise .card-deck.expertise-card-deck-bottom {
@@ -96,7 +98,12 @@ body {
 }
 
 .team .team-email {
+    font-size: 0.8em;
     color: #E35348;
+}
+
+.team .team-phone {
+    font-size: 0.8em;
 }
 
 .team .team-linkedin {
