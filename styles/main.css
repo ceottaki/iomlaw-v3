@@ -1,0 +1,133 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header .menu .navbar {
+    position: absolute;
+    bottom: -20px;
+    right: 0;
+    text-transform: uppercase;
+}
+
+div.logo img.logo {
+    width: 400px;
+}
+
+.carousel-control-prev {
+    left: -70px;
+}
+
+.carousel-control-next {
+    right: -70px;
+}
+
+#expertise-carousel {
+    padding-top: 1em;
+}
+
+.welcome {
+    padding-top: 0.1em;
+    margin-bottom: -30px;
+}
+
+.welcome .jumbotron {
+    background-color: #5B6771;
+    color: #ffffff;
+}
+
+.welcome .jumbotron .container .welcome-title {
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    padding-bottom: 60px;
+}
+
+.welcome .jumbotron .container .welcome-note {
+    border: white 1px solid;
+    position: relative;
+    left: -10px;
+    color: #8B9EB8;
+    font-size: 1.5em;
+    padding-top: 2.5em;
+}
+
+.card-deck {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.expertise {
+    background-image: url('../images/Expertise-Background.png');
+    background-size: contain;
+    height: 712px;
+}
+
+.expertise .card-deck.expertise-card-deck-top {
+    padding-top: 90px;
+}
+
+.expertise .card-deck.expertise-card-deck-bottom {
+    padding-top: 60px;
+}
+
+.expertise .card .card-body .card-title {
+    color: #94989E;
+}
+
+.expertise .card {
+    color: #ffffff;
+}
+
+.team {
+    background-color: #5B6771;
+    margin-top: 2px;
+    color: #ffffff;
+}
+
+.team .team-title {
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
+.team .team-photo {
+    width: 205px;
+}
+
+.team .card-subtitle {
+    color: #92999F;
+}
+
+.team .card-footer .card-link {
+    color: #858D94;
+}
+
+.team .team-email {
+    color: #E35348;
+}
+
+.team .team-linkedin {
+    right: 5px;
+}
+
+.contact {
+    background-color: #20003F;
+    margin-top: 2px;
+    color: #ffffff;
+    /* height: 712px; */
+}
+
+.contact .contact-title {
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
+.contact .contact-address .contact-adressee {
+    font-size: 1.25em;
+}
+
+.contact .contact-address .contact-street-address {
+    margin-left: 21px;
+}
+
+.contact .contact-phone .contact-email {
+    color: #E35348;
+}
