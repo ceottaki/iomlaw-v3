@@ -9,16 +9,12 @@ body {
     text-transform: uppercase;
 }
 
-div.logo img.logo {
-    width: 400px;
-}
-
 .carousel-control-prev {
-    left: -70px;
+    left: -5%;
 }
 
 .carousel-control-next {
-    right: -70px;
+    right: -5%;
 }
 
 #expertise-carousel {
@@ -57,8 +53,7 @@ div.logo img.logo {
 
 .expertise {
     background-image: url('../images/Expertise-Background.png');
-    background-size: contain;
-    height: 712px;
+    background-repeat: round;
 }
 
 .expertise .card-deck.expertise-card-deck-top {
@@ -89,7 +84,7 @@ div.logo img.logo {
 }
 
 .team .team-photo {
-    width: 205px;
+    width: 100%;
 }
 
 .team .card-subtitle {
@@ -105,7 +100,9 @@ div.logo img.logo {
 }
 
 .team .team-linkedin {
-    right: 5px;
+    bottom: 15px;
+    right: 15px;
+    position: absolute;
 }
 
 .contact {
